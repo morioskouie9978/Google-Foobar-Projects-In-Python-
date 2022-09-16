@@ -1,4 +1,4 @@
-from queue import Queue
+from Queue import Queue
 def solution(map):
     x, y, h, w = 0, 0, len(map), len(map[0])
     paths_len = []
