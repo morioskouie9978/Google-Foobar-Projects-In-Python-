@@ -4,11 +4,11 @@ def solution(n):
     # initializing the number of conversions
     counter = 0
     while(n != 1):
-        # indicating an exception for number 3 which results in two conversions
+        # indicating an exception for number 3 which results in two more conversions
         if(n == 3):
             counter += 2
             return counter
-        # the shortes pass is made by division. Unless it isn't divisble,
+        # the shortest path is made by division. Unless it isn't divisble,
         # we try to add or subtract it to check whether the new result is divisible by 4
         # because 4 makes the path shorter than only 2
         if(n % 2 == 0):
